@@ -3,7 +3,7 @@ Live face-recognition tool with logging to csv file
 Recommended python version is 3.6.
 
 # Installation
-I strongly recommend to create a virtualenv by command `python -m venv virtual`. Then activate it and install requirements from requirements.txt file.
+I strongly recommend to create a virtualenv by command `python -m venv virtual`. Then activate it and install requirements from requirements.txt file. There is a problematic library to install called dlib. If the pip install failed, please follow the instructions here: https://www.pyimagesearch.com/2018/01/22/install-dlib-easy-complete-guide/
 
 ## Creating a dataset
 To let python recognize faces you have to create a dataset. It's recommended to use at least 1000 pics and every 
